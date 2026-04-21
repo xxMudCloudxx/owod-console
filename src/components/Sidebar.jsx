@@ -12,8 +12,8 @@ function Sidebar() {
   const setActiveNav = useConsoleStore((state) => state.setActiveNav)
 
   return (
-    <aside className="border-b border-gray-200 bg-white lg:min-h-full lg:w-56 lg:border-r lg:border-b-0">
-      <div className="flex gap-1 overflow-x-auto px-3 py-3 lg:flex-col lg:py-4">
+    <aside className="border-b border-gray-200 bg-white lg:min-h-full lg:w-60 lg:border-r lg:border-b-0 xl:w-64">
+      <div className="flex gap-1 overflow-x-auto px-3 py-3 lg:flex-col lg:px-4 lg:py-5">
         {menuItems.map(({ label, icon: Icon }) => {
           const isActive = label === activeNav
 

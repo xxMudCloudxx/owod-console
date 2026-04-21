@@ -1,5 +1,7 @@
 import { create } from 'zustand'
 
+const stageTitles = ['原始图', 'SAM池子图', '背景头', '碎片头', '最终效果']
+
 const colorTokens = [
   { key: 'origin', label: '原始框', hex: '#ef4444', accent: 'rgba(239, 68, 68, 0.18)' },
   { key: 'kept', label: '保留框', hex: '#22c55e', accent: 'rgba(34, 197, 94, 0.18)' },
@@ -33,6 +35,9 @@ const stageInsights = {
   },
 }
 
+const createStageUploads = () =>
+  Object.fromEntries(stageTitles.map((title) => [title, null]))
+
 const createInitialState = () => ({
   activeNav: '图像清理',
   activeStage: '最终效果',
@@ -49,7 +54,9 @@ const createInitialState = () => ({
   metrics: {
     retention: 42.8,
     deletion: 57.2,
+    singleImage: 'N/N',
   },
+  stageUploads: createStageUploads(),
   selectedBox: stageInsights['最终效果'],
   runStatus: '完成',
 })
@@ -74,6 +81,13 @@ export const useConsoleStore = create((set) => ({
       strategies: {
         ...state.strategies,
         [key]: value,
+      },
+    })),
+  setStageUpload: (stageTitle, payload) =>
+    set((state) => ({
+      stageUploads: {
+        ...state.stageUploads,
+        [stageTitle]: payload,
       },
     })),
   selectColor: (selectedColorKey) => set({ selectedColorKey }),

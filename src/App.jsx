@@ -11,8 +11,8 @@ function App() {
         <Header />
         <div className="flex flex-1 flex-col lg:flex-row">
           <Sidebar />
-          <main className="flex flex-1 flex-col xl:flex-row">
-            <section className="flex min-w-0 flex-1 flex-col gap-5 p-5 lg:p-6">
+          <main className="flex min-w-0 flex-1 flex-col xl:flex-row">
+            <section className="flex min-w-0 flex-1 flex-col gap-5 p-5 lg:p-6 xl:px-7">
               <PipelineViewer />
               <ControlPanel />
             </section>

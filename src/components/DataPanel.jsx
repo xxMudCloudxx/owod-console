@@ -17,18 +17,24 @@ function DataPanel() {
   ]
 
   return (
-    <aside className="panel-shell-muted w-full p-5 xl:w-80">
+    <aside className="panel-shell-muted w-full p-5 xl:w-[22rem] 2xl:w-[23rem]">
       <div className="flex flex-col gap-5">
         <section>
-          <h3 className="mb-3 text-sm font-medium text-gray-900">指标总览</h3>
+          <h3 className="mb-3 text-sm font-medium text-gray-900">数据集指标总览</h3>
           <div className="grid grid-cols-2 gap-3">
-            <div className="rounded-lg bg-white p-3 border border-gray-200">
+            <div className="rounded-lg border border-gray-200 bg-white p-3">
               <p className="text-2xl font-semibold text-green-600">{metrics.retention}%</p>
               <p className="text-xs text-gray-500">保留率</p>
             </div>
-            <div className="rounded-lg bg-white p-3 border border-gray-200">
+            <div className="rounded-lg border border-gray-200 bg-white p-3">
               <p className="text-2xl font-semibold text-red-500">{metrics.deletion}%</p>
               <p className="text-xs text-gray-500">删除率</p>
+            </div>
+          </div>
+          <div className="mt-3">
+            <div className="rounded-lg border border-gray-200 bg-white p-3">
+              <p className="text-2xl font-semibold text-gray-900">{metrics.singleImage}</p>
+              <p className="text-xs text-gray-500">单图指标</p>
             </div>
           </div>
         </section>

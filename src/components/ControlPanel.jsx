@@ -12,12 +12,12 @@ function ControlPanel() {
   const resetConsole = useConsoleStore((state) => state.resetConsole)
 
   return (
-    <section className="panel-shell rounded-lg p-5">
+    <section className="panel-shell rounded-lg p-6">
       <div className="mb-5 flex items-center justify-between">
         <h2 className="text-base font-semibold text-gray-900">参数配置</h2>
       </div>
 
-      <div className="grid gap-6 lg:grid-cols-2 xl:grid-cols-4">
+      <div className="grid gap-6 lg:grid-cols-2 xl:grid-cols-[1.08fr_1fr_1fr_1.12fr]">
         <div>
           <p className="mb-3 text-sm text-gray-500">功能开关</p>
           <div className="space-y-2">
