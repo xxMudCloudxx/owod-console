@@ -33,15 +33,16 @@ owod-console/
 │   ├── lib/export.js         # 导出 PNG / JSON / CSV
 │   └── store/
 │       └── useConsoleStore.js # Zustand 状态
-OWOD_console_assets_20261117/  # 素材包，manifest.json 为数据入口
+├── public/
+│   └── assets/               # 素材包，manifest.json 为数据入口
 ```
 
 ## 数据约定
 
-- 所有框坐标与保留/删除决策取自 `cleaning/*/data.json` 的 `proposals` 与 `variants.*.kept_proposal_ids`，前端不推断、不拼接。
+- 所有框坐标与保留/删除决策取自 `public/assets/cleaning/*/data.json` 的 `proposals` 与 `variants.*.kept_proposal_ids`，前端不推断、不拼接。
 - 开关映射：都关→`raw`，仅背景头→`background_only`，仅碎片头→`fragment_only`，都开→`dual_head`。
-- 素材无连续分数，也没有多档阈值结果，不要显示分数或做“激进/保守”策略。
-- 检测对比页只读 `detector_comparison/` 和 `metrics/`，不与清洗开关联动。
+- 素材无连续分数，也没有多档阈值结果，不要显示分数或做”激进/保守”策略。
+- 检测对比页只读 `public/assets/detector_comparison/` 和 `public/assets/metrics/`，不与清洗开关联动。
 
 ## 布局结构
 

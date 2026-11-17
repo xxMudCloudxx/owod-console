@@ -1,9 +1,9 @@
-// 素材包数据层：以 OWOD_console_assets_20261117/manifest.json 为唯一入口。
+// 素材包数据层：以 public/assets/manifest.json 为唯一入口。
 // 所有数量、保留/删除决策都直接取自素材包记录，前端不做推断。
 
-const ROOT = '../../OWOD_console_assets_20261117/'
+const ROOT = '../../public/assets/'
 
-const jsonFiles = import.meta.glob('../../OWOD_console_assets_20261117/**/*.json', {
+const jsonFiles = import.meta.glob('../../public/assets/**/*.json', {
   eager: true,
   import: 'default',
 })
@@ -11,8 +11,8 @@ const jsonFiles = import.meta.glob('../../OWOD_console_assets_20261117/**/*.json
 // 图片懒加载：返回动态 import 函数，按需加载
 const imageLoaders = import.meta.glob(
   [
-    '../../OWOD_console_assets_20261117/cleaning/*/original.jpg',
-    '../../OWOD_console_assets_20261117/detector_comparison/*/*.png',
+    '../../public/assets/cleaning/*/original.jpg',
+    '../../public/assets/detector_comparison/*/*.png',
   ],
   { eager: false, query: '?url', import: 'default' },
 )
