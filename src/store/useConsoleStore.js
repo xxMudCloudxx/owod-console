@@ -1,95 +1,42 @@
 import { create } from 'zustand'
+import { cleaningCases } from '../data/assets.js'
 
-const stageTitles = ['原始图', 'SAM池子图', '背景头', '碎片头', '最终效果']
-
-const colorTokens = [
-  { key: 'origin', label: '原始框', hex: '#ef4444', accent: 'rgba(239, 68, 68, 0.18)' },
-  { key: 'kept', label: '保留框', hex: '#22c55e', accent: 'rgba(34, 197, 94, 0.18)' },
-]
-
-const stageInsights = {
-  原始图: {
-    type: '背景',
-    score: 0.92,
-    status: '待分析',
-  },
-  SAM池子图: {
-    type: '候选区域',
-    score: 0.88,
-    status: '待筛选',
-  },
-  背景头: {
-    type: '背景',
-    score: 0.85,
-    status: '已删除',
-  },
-  碎片头: {
-    type: '碎片',
-    score: 0.81,
-    status: '已保留',
-  },
-  最终效果: {
-    type: '未知目标',
-    score: 0.87,
-    status: '已保留',
-  },
+export const defaultColors = {
+  kept: '#22c55e',
+  removed: '#ef4444',
+  selected: '#2563eb',
 }
 
-const createStageUploads = () =>
-  Object.fromEntries(stageTitles.map((title) => [title, null]))
-
-const createInitialState = () => ({
-  activeNav: '图像清理',
-  activeStage: '最终效果',
+// 当前样例的默认视图设置（重置按钮恢复到这里，样例本身不变）
+const createCaseDefaults = () => ({
   toggles: {
     backgroundHead: true,
     fragmentHead: true,
   },
-  strategies: {
-    backgroundHead: '保守',
-    fragmentHead: '激进',
-  },
-  colors: colorTokens,
-  selectedColorKey: 'kept',
-  metrics: {
-    retention: 42.8,
-    deletion: 57.2,
-    singleImage: 'N/N',
-  },
-  stageUploads: createStageUploads(),
-  selectedBox: stageInsights['最终效果'],
-  runStatus: '完成',
+  activeStage: 'final',
+  showRemoved: true,
+  colors: { ...defaultColors },
+  selectedBoxId: null,
+  zoomStage: null,
 })
 
 export const useConsoleStore = create((set) => ({
-  ...createInitialState(),
+  activeNav: '图像清理',
+  caseId: cleaningCases[0]?.id ?? null,
+  ...createCaseDefaults(),
+
   setActiveNav: (activeNav) => set({ activeNav }),
-  setActiveStage: (activeStage) =>
-    set({
-      activeStage,
-      selectedBox: stageInsights[activeStage] ?? stageInsights['最终效果'],
-    }),
+  setCase: (caseId) => set({ caseId, selectedBoxId: null, zoomStage: null }),
+  setActiveStage: (activeStage) => set({ activeStage }),
+  openZoom: (stage) => set({ zoomStage: stage, activeStage: stage }),
+  closeZoom: () => set({ zoomStage: null }),
   toggleHead: (key) =>
     set((state) => ({
-      toggles: {
-        ...state.toggles,
-        [key]: !state.toggles[key],
-      },
+      toggles: { ...state.toggles, [key]: !state.toggles[key] },
     })),
-  setStrategy: (key, value) =>
-    set((state) => ({
-      strategies: {
-        ...state.strategies,
-        [key]: value,
-      },
-    })),
-  setStageUpload: (stageTitle, payload) =>
-    set((state) => ({
-      stageUploads: {
-        ...state.stageUploads,
-        [stageTitle]: payload,
-      },
-    })),
-  selectColor: (selectedColorKey) => set({ selectedColorKey }),
-  resetConsole: () => set(createInitialState()),
+  setShowRemoved: (showRemoved) => set({ showRemoved }),
+  setColor: (key, hex) =>
+    set((state) => ({ colors: { ...state.colors, [key]: hex } })),
+  selectBox: (selectedBoxId) => set({ selectedBoxId }),
+  resetConsole: () => set(createCaseDefaults()),
 }))

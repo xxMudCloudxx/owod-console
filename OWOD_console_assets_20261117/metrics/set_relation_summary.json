@@ -1,0 +1,57 @@
+{
+  "scope": "T1 train full split valid raw proposal universe from audit_rows.json",
+  "alignment_key": "filtered XML boxes are mapped back to audit row image_id + proposal_id using order-preserving subsequence alignment",
+  "raw_total": 850680,
+  "background_keep_selected055": 571266,
+  "background_keep_selected055_family_summary": 571266,
+  "raw_fragment_keep_same_policy": 582215,
+  "dual_keep_selected055_final_xml_mapped": 371376,
+  "raw_stage_intersection_keep": 357084,
+  "final_dual_xml_valid_box_count": 371376,
+  "dual_equals_raw_stage_intersection": false,
+  "dual_keep_equals_final_dual_xml_valid_box_count": true,
+  "both_keep_raw_stage": 357084,
+  "bg_only_delete_raw_stage": 225131,
+  "frag_only_delete_raw_stage": 214182,
+  "both_delete_raw_stage": 54283,
+  "fraction_by_bucket_raw_stage": {
+    "both_keep": 0.4197630131189166,
+    "bg_only_delete": 0.2646482813749001,
+    "frag_only_delete": 0.2517774016081253,
+    "both_delete": 0.06381130389805803
+  },
+  "mismatch_explanation_if_false": "The selected 0.55 export is a cascade: the fragment head is applied after background filtering, and its connected-component route is recomputed on the background-filtered pool. The raw-stage fragment-only mask reported here applies the same fragment policy directly on the raw pool, so the final dual XML need not equal raw_background_keep AND raw_fragment_keep.",
+  "xml_alignment_diagnostics": {
+    "background": {
+      "filtered_root": "/home/cumt/yyx/sam2/sgrod_runs/t1_bg_coverage_sensitivity_training_inputs_20260510/background_cov055_fromsummary/filtered_xml",
+      "total_filtered_valid_boxes": 571266,
+      "mapped_keep_ids": 571266,
+      "missing_xml_count": 0,
+      "missing_xml_examples": [],
+      "mismatch_count": 0,
+      "mismatch_examples": [],
+      "mapping_ok": true
+    },
+    "dual": {
+      "filtered_root": "/home/cumt/yyx/sam2/sgrod_runs/t1_bg_coverage_sensitivity_training_inputs_20260510/dual_cov055_fromsummary_rawmicro/filtered_xml",
+      "total_filtered_valid_boxes": 371376,
+      "mapped_keep_ids": 371376,
+      "missing_xml_count": 0,
+      "missing_xml_examples": [],
+      "mismatch_count": 0,
+      "mismatch_examples": [],
+      "mapping_ok": true
+    }
+  },
+  "cascade_export_relation": {
+    "background_input_boxes_including_invalid": 850683,
+    "background_kept_boxes_including_invalid": 571268,
+    "background_valid_keep_from_family_summary": 571266,
+    "dual_input_boxes_including_invalid": 571268,
+    "dual_kept_boxes": 371376,
+    "dual_removed_after_background": 199892,
+    "dual_invalid_zero_area_boxes_after_background": 2,
+    "dual_input_equals_background_output_including_invalid": true,
+    "dual_keep_equals_final_dual_xml_valid_box_count": true
+  }
+}

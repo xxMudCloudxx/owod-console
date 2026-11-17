@@ -1,0 +1,88 @@
+{
+  "package": "/home/cumt/yyx/_paper_tmp/owod_dualhead_paper_companion/imports/source_results/figure2_dualhead_newcase_decision_overlays_20260521",
+  "stage": "T1",
+  "purpose": "New Figure 2 qualitative cases selected for visually stronger background, fragment, and mixed cleanup stories.",
+  "previous_cases_not_reused": [
+    "002340",
+    "2008_007254",
+    "2009_005240"
+  ],
+  "color_protocol": {
+    "raw_pool_all": "neutral cyan/blue boxes; no red or green",
+    "background_head_decision_all": "all raw proposals, green=background keep, red=background drop",
+    "fragment_head_decision_all": "all raw proposals, green=fragment keep, red=fragment drop",
+    "final_intersection_retained_only": "final retained proposals only, green only; no red boxes"
+  },
+  "source_paths": {
+    "image_root": "/home/cumt/yyx/data/OWOD/JPEGImages",
+    "raw_xml": "/home/cumt/yyx/data/OWOD/Annotations_segment_official_raw_20260411",
+    "background_keep_xml": "/home/cumt/yyx/sam2/sgrod_runs/t1_bg_coverage_sensitivity_training_inputs_20260510/background_cov055_fromsummary/filtered_xml",
+    "fragment_keep_xml": "/home/cumt/yyx/sam2/sgrod_runs/existing_proposal_fragment_only_t1_rawsam_rawmicro_adaptive_main_20260415/filtered_xml",
+    "final_export_xml": "/home/cumt/yyx/sam2/sgrod_runs/t1_bg_coverage_sensitivity_training_inputs_20260510/dual_cov055_fromsummary_rawmicro/filtered_xml",
+    "background_aggregate_summary": "/home/cumt/yyx/sam2/sgrod_runs/t1_bg_coverage_sensitivity_training_inputs_20260510/background_cov055_fromsummary/aggregate_summary.json",
+    "fragment_aggregate_summary": "/home/cumt/yyx/sam2/sgrod_runs/existing_proposal_fragment_only_t1_rawsam_rawmicro_adaptive_main_20260415/aggregate_summary.json",
+    "final_aggregate_summary": "/home/cumt/yyx/sam2/sgrod_runs/t1_bg_coverage_sensitivity_training_inputs_20260510/dual_cov055_fromsummary_rawmicro/aggregate_summary.json"
+  },
+  "notes": [
+    "Generated PNGs are full-image overlays with no title, text, legend, subfigure id, caption, contact sheet, collage, crop, or added border.",
+    "Background and fragment decision PNGs draw every raw proposal exactly once with red/green decision colors.",
+    "Final PNG draws only retained final proposals in green to show the purified pool.",
+    "The three cases are newly selected and do not reuse the prior case ids."
+  ],
+  "cases": [
+    {
+      "case_id": "case1",
+      "image_id": "2011_001105",
+      "stage": "T1",
+      "note": "background/context-heavy cleanup example",
+      "raw_count": 132,
+      "bg_keep_count": 63,
+      "bg_drop_count": 69,
+      "frag_keep_count": 41,
+      "frag_drop_count": 91,
+      "final_keep_count": 12,
+      "final_equals_bg_and_frag_intersection": true,
+      "raw_pool_all_png": "case1/case1_raw_pool_all.png",
+      "background_head_decision_all_png": "case1/case1_background_head_decision_all.png",
+      "fragment_head_decision_all_png": "case1/case1_fragment_head_decision_all.png",
+      "final_intersection_retained_only_png": "case1/case1_final_intersection_retained_only.png",
+      "original_jpg": "case1/case1_original.jpg"
+    },
+    {
+      "case_id": "case2",
+      "image_id": "2009_001285",
+      "stage": "T1",
+      "note": "fragment-heavy cleanup example",
+      "raw_count": 132,
+      "bg_keep_count": 132,
+      "bg_drop_count": 0,
+      "frag_keep_count": 3,
+      "frag_drop_count": 129,
+      "final_keep_count": 3,
+      "final_equals_bg_and_frag_intersection": true,
+      "raw_pool_all_png": "case2/case2_raw_pool_all.png",
+      "background_head_decision_all_png": "case2/case2_background_head_decision_all.png",
+      "fragment_head_decision_all_png": "case2/case2_fragment_head_decision_all.png",
+      "final_intersection_retained_only_png": "case2/case2_final_intersection_retained_only.png",
+      "original_jpg": "case2/case2_original.jpg"
+    },
+    {
+      "case_id": "case3",
+      "image_id": "2010_005782",
+      "stage": "T1",
+      "note": "mixed complementary cleanup example",
+      "raw_count": 222,
+      "bg_keep_count": 97,
+      "bg_drop_count": 125,
+      "frag_keep_count": 50,
+      "frag_drop_count": 172,
+      "final_keep_count": 13,
+      "final_equals_bg_and_frag_intersection": true,
+      "raw_pool_all_png": "case3/case3_raw_pool_all.png",
+      "background_head_decision_all_png": "case3/case3_background_head_decision_all.png",
+      "fragment_head_decision_all_png": "case3/case3_fragment_head_decision_all.png",
+      "final_intersection_retained_only_png": "case3/case3_final_intersection_retained_only.png",
+      "original_jpg": "case3/case3_original.jpg"
+    }
+  ]
+}

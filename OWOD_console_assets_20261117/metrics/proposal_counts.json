@@ -1,0 +1,10 @@
+{
+  "task": "T1",
+  "scope": "full_T1_train_valid_raw_proposals",
+  "raw_count": 850680,
+  "background_only_keep_count": 571266,
+  "fragment_only_keep_count": 582215,
+  "dual_head_keep_count": 371376,
+  "dual_head_removal_fraction": 0.5634363097757089,
+  "source": "set_relation_summary.json"
+}

@@ -1,0 +1,1218 @@
+{
+  "image_id": "2009_005240",
+  "task": "T1",
+  "width": 500,
+  "height": 375,
+  "files": {
+    "original": "original.jpg",
+    "raw_overlay": "raw_overlay.png",
+    "background_overlay": "background_overlay.png",
+    "fragment_overlay": "fragment_overlay.png",
+    "final_overlay": "final_overlay.png"
+  },
+  "proposals": [
+    {
+      "proposal_id": 0,
+      "bbox": [
+        0,
+        210,
+        38,
+        233
+      ]
+    },
+    {
+      "proposal_id": 1,
+      "bbox": [
+        0,
+        231,
+        40,
+        255
+      ]
+    },
+    {
+      "proposal_id": 2,
+      "bbox": [
+        0,
+        166,
+        34,
+        188
+      ]
+    },
+    {
+      "proposal_id": 3,
+      "bbox": [
+        0,
+        252,
+        43,
+        279
+      ]
+    },
+    {
+      "proposal_id": 4,
+      "bbox": [
+        177,
+        317,
+        226,
+        337
+      ]
+    },
+    {
+      "proposal_id": 5,
+      "bbox": [
+        0,
+        273,
+        45,
+        299
+      ]
+    },
+    {
+      "proposal_id": 6,
+      "bbox": [
+        214,
+        341,
+        265,
+        366
+      ]
+    },
+    {
+      "proposal_id": 7,
+      "bbox": [
+        0,
+        250,
+        219,
+        312
+      ]
+    },
+    {
+      "proposal_id": 8,
+      "bbox": [
+        168,
+        338,
+        217,
+        362
+      ]
+    },
+    {
+      "proposal_id": 9,
+      "bbox": [
+        0,
+        322,
+        18,
+        374
+      ]
+    },
+    {
+      "proposal_id": 10,
+      "bbox": [
+        0,
+        188,
+        36,
+        210
+      ]
+    },
+    {
+      "proposal_id": 11,
+      "bbox": [
+        209,
+        366,
+        260,
+        374
+      ]
+    },
+    {
+      "proposal_id": 12,
+      "bbox": [
+        224,
+        319,
+        270,
+        340
+      ]
+    },
+    {
+      "proposal_id": 13,
+      "bbox": [
+        43,
+        201,
+        164,
+        228
+      ]
+    },
+    {
+      "proposal_id": 14,
+      "bbox": [
+        5,
+        326,
+        39,
+        348
+      ]
+    },
+    {
+      "proposal_id": 15,
+      "bbox": [
+        149,
+        298,
+        193,
+        315
+      ]
+    },
+    {
+      "proposal_id": 16,
+      "bbox": [
+        15,
+        351,
+        59,
+        374
+      ]
+    },
+    {
+      "proposal_id": 17,
+      "bbox": [
+        189,
+        299,
+        232,
+        316
+      ]
+    },
+    {
+      "proposal_id": 18,
+      "bbox": [
+        162,
+        283,
+        203,
+        297
+      ]
+    },
+    {
+      "proposal_id": 19,
+      "bbox": [
+        133,
+        315,
+        182,
+        335
+      ]
+    },
+    {
+      "proposal_id": 20,
+      "bbox": [
+        174,
+        269,
+        211,
+        282
+      ]
+    },
+    {
+      "proposal_id": 21,
+      "bbox": [
+        5,
+        145,
+        25,
+        158
+      ]
+    },
+    {
+      "proposal_id": 22,
+      "bbox": [
+        84,
+        224,
+        104,
+        271
+      ]
+    },
+    {
+      "proposal_id": 23,
+      "bbox": [
+        0,
+        357,
+        17,
+        374
+      ]
+    },
+    {
+      "proposal_id": 24,
+      "bbox": [
+        200,
+        284,
+        222,
+        298
+      ]
+    },
+    {
+      "proposal_id": 25,
+      "bbox": [
+        154,
+        362,
+        197,
+        374
+      ]
+    },
+    {
+      "proposal_id": 26,
+      "bbox": [
+        124,
+        280,
+        166,
+        295
+      ]
+    },
+    {
+      "proposal_id": 27,
+      "bbox": [
+        97,
+        225,
+        111,
+        270
+      ]
+    },
+    {
+      "proposal_id": 28,
+      "bbox": [
+        218,
+        184,
+        301,
+        240
+      ]
+    },
+    {
+      "proposal_id": 29,
+      "bbox": [
+        389,
+        189,
+        499,
+        264
+      ]
+    },
+    {
+      "proposal_id": 30,
+      "bbox": [
+        297,
+        169,
+        400,
+        245
+      ]
+    },
+    {
+      "proposal_id": 31,
+      "bbox": [
+        220,
+        222,
+        386,
+        290
+      ]
+    },
+    {
+      "proposal_id": 32,
+      "bbox": [
+        219,
+        184,
+        499,
+        373
+      ]
+    },
+    {
+      "proposal_id": 33,
+      "bbox": [
+        306,
+        251,
+        437,
+        345
+      ]
+    },
+    {
+      "proposal_id": 34,
+      "bbox": [
+        465,
+        282,
+        499,
+        373
+      ]
+    },
+    {
+      "proposal_id": 35,
+      "bbox": [
+        481,
+        314,
+        499,
+        349
+      ]
+    },
+    {
+      "proposal_id": 36,
+      "bbox": [
+        479,
+        342,
+        499,
+        374
+      ]
+    },
+    {
+      "proposal_id": 37,
+      "bbox": [
+        265,
+        343,
+        315,
+        368
+      ]
+    },
+    {
+      "proposal_id": 38,
+      "bbox": [
+        467,
+        282,
+        499,
+        299
+      ]
+    },
+    {
+      "proposal_id": 39,
+      "bbox": [
+        370,
+        352,
+        398,
+        374
+      ]
+    },
+    {
+      "proposal_id": 40,
+      "bbox": [
+        430,
+        242,
+        499,
+        373
+      ]
+    },
+    {
+      "proposal_id": 41,
+      "bbox": [
+        271,
+        307,
+        316,
+        342
+      ]
+    },
+    {
+      "proposal_id": 42,
+      "bbox": [
+        162,
+        91,
+        198,
+        123
+      ]
+    },
+    {
+      "proposal_id": 43,
+      "bbox": [
+        167,
+        16,
+        202,
+        57
+      ]
+    },
+    {
+      "proposal_id": 44,
+      "bbox": [
+        143,
+        86,
+        202,
+        137
+      ]
+    },
+    {
+      "proposal_id": 45,
+      "bbox": [
+        233,
+        17,
+        250,
+        48
+      ]
+    },
+    {
+      "proposal_id": 46,
+      "bbox": [
+        164,
+        125,
+        199,
+        134
+      ]
+    },
+    {
+      "proposal_id": 47,
+      "bbox": [
+        143,
+        90,
+        157,
+        136
+      ]
+    },
+    {
+      "proposal_id": 48,
+      "bbox": [
+        81,
+        33,
+        89,
+        71
+      ]
+    },
+    {
+      "proposal_id": 49,
+      "bbox": [
+        103,
+        33,
+        110,
+        71
+      ]
+    },
+    {
+      "proposal_id": 50,
+      "bbox": [
+        271,
+        108,
+        288,
+        132
+      ]
+    },
+    {
+      "proposal_id": 51,
+      "bbox": [
+        168,
+        28,
+        201,
+        57
+      ]
+    },
+    {
+      "proposal_id": 52,
+      "bbox": [
+        40,
+        158,
+        151,
+        219
+      ]
+    },
+    {
+      "proposal_id": 53,
+      "bbox": [
+        168,
+        59,
+        202,
+        75
+      ]
+    },
+    {
+      "proposal_id": 54,
+      "bbox": [
+        81,
+        33,
+        110,
+        71
+      ]
+    },
+    {
+      "proposal_id": 55,
+      "bbox": [
+        421,
+        0,
+        489,
+        135
+      ]
+    },
+    {
+      "proposal_id": 56,
+      "bbox": [
+        264,
+        0,
+        386,
+        19
+      ]
+    },
+    {
+      "proposal_id": 57,
+      "bbox": [
+        366,
+        121,
+        375,
+        142
+      ]
+    },
+    {
+      "proposal_id": 58,
+      "bbox": [
+        325,
+        9,
+        395,
+        45
+      ]
+    },
+    {
+      "proposal_id": 59,
+      "bbox": [
+        295,
+        113,
+        322,
+        135
+      ]
+    },
+    {
+      "proposal_id": 60,
+      "bbox": [
+        463,
+        80,
+        484,
+        96
+      ]
+    },
+    {
+      "proposal_id": 61,
+      "bbox": [
+        284,
+        22,
+        321,
+        49
+      ]
+    },
+    {
+      "proposal_id": 62,
+      "bbox": [
+        0,
+        259,
+        397,
+        373
+      ]
+    },
+    {
+      "proposal_id": 63,
+      "bbox": [
+        359,
+        252,
+        437,
+        286
+      ]
+    },
+    {
+      "proposal_id": 64,
+      "bbox": [
+        478,
+        272,
+        499,
+        288
+      ]
+    },
+    {
+      "proposal_id": 65,
+      "bbox": [
+        88,
+        32,
+        104,
+        71
+      ]
+    },
+    {
+      "proposal_id": 66,
+      "bbox": [
+        164,
+        138,
+        235,
+        259
+      ]
+    },
+    {
+      "proposal_id": 67,
+      "bbox": [
+        72,
+        29,
+        118,
+        75
+      ]
+    },
+    {
+      "proposal_id": 68,
+      "bbox": [
+        438,
+        243,
+        499,
+        274
+      ]
+    },
+    {
+      "proposal_id": 69,
+      "bbox": [
+        110,
+        33,
+        118,
+        72
+      ]
+    },
+    {
+      "proposal_id": 70,
+      "bbox": [
+        175,
+        155,
+        218,
+        256
+      ]
+    },
+    {
+      "proposal_id": 71,
+      "bbox": [
+        10,
+        308,
+        62,
+        326
+      ]
+    },
+    {
+      "proposal_id": 72,
+      "bbox": [
+        2,
+        175,
+        18,
+        181
+      ]
+    },
+    {
+      "proposal_id": 73,
+      "bbox": [
+        26,
+        145,
+        36,
+        151
+      ]
+    },
+    {
+      "proposal_id": 74,
+      "bbox": [
+        83,
+        246,
+        92,
+        275
+      ]
+    },
+    {
+      "proposal_id": 75,
+      "bbox": [
+        0,
+        310,
+        22,
+        324
+      ]
+    },
+    {
+      "proposal_id": 76,
+      "bbox": [
+        84,
+        180,
+        90,
+        211
+      ]
+    },
+    {
+      "proposal_id": 77,
+      "bbox": [
+        220,
+        169,
+        400,
+        290
+      ]
+    },
+    {
+      "proposal_id": 78,
+      "bbox": [
+        0,
+        0,
+        234,
+        149
+      ]
+    },
+    {
+      "proposal_id": 79,
+      "bbox": [
+        167,
+        16,
+        202,
+        76
+      ]
+    },
+    {
+      "proposal_id": 80,
+      "bbox": [
+        106,
+        132,
+        114,
+        137
+      ]
+    },
+    {
+      "proposal_id": 81,
+      "bbox": [
+        236,
+        23,
+        245,
+        34
+      ]
+    },
+    {
+      "proposal_id": 82,
+      "bbox": [
+        285,
+        65,
+        392,
+        124
+      ]
+    },
+    {
+      "proposal_id": 83,
+      "bbox": [
+        282,
+        0,
+        395,
+        49
+      ]
+    },
+    {
+      "proposal_id": 84,
+      "bbox": [
+        324,
+        112,
+        340,
+        120
+      ]
+    },
+    {
+      "proposal_id": 85,
+      "bbox": [
+        366,
+        130,
+        375,
+        142
+      ]
+    },
+    {
+      "proposal_id": 86,
+      "bbox": [
+        463,
+        61,
+        478,
+        73
+      ]
+    },
+    {
+      "proposal_id": 87,
+      "bbox": [
+        0,
+        0,
+        499,
+        201
+      ]
+    },
+    {
+      "proposal_id": 88,
+      "bbox": [
+        0,
+        134,
+        235,
+        311
+      ]
+    },
+    {
+      "proposal_id": 89,
+      "bbox": [
+        232,
+        0,
+        499,
+        201
+      ]
+    },
+    {
+      "proposal_id": 90,
+      "bbox": [
+        12,
+        262,
+        28,
+        270
+      ]
+    },
+    {
+      "proposal_id": 91,
+      "bbox": [
+        445,
+        121,
+        454,
+        132
+      ]
+    },
+    {
+      "proposal_id": 92,
+      "bbox": [
+        306,
+        189,
+        499,
+        345
+      ]
+    },
+    {
+      "proposal_id": 93,
+      "bbox": [
+        15,
+        283,
+        31,
+        290
+      ]
+    },
+    {
+      "proposal_id": 94,
+      "bbox": [
+        466,
+        120,
+        478,
+        135
+      ]
+    },
+    {
+      "proposal_id": 95,
+      "bbox": [
+        115,
+        233,
+        120,
+        267
+      ]
+    },
+    {
+      "proposal_id": 96,
+      "bbox": [
+        9,
+        240,
+        26,
+        247
+      ]
+    }
+  ],
+  "variants": {
+    "raw": {
+      "kept_proposal_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96
+      ],
+      "raw_count": 97,
+      "kept_count": 97,
+      "removed_count": 0,
+      "retention_fraction": 1.0,
+      "removal_fraction": 0.0
+    },
+    "background_only": {
+      "kept_proposal_ids": [
+        9,
+        13,
+        20,
+        21,
+        24,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        38,
+        39,
+        40,
+        41,
+        42,
+        44,
+        46,
+        47,
+        50,
+        52,
+        57,
+        59,
+        61,
+        63,
+        64,
+        66,
+        68,
+        70,
+        73,
+        76,
+        77,
+        80,
+        82,
+        84,
+        85,
+        88,
+        89,
+        90,
+        91,
+        92,
+        94,
+        95
+      ],
+      "raw_count": 97,
+      "kept_count": 45,
+      "removed_count": 52,
+      "retention_fraction": 0.4639175257731959,
+      "removal_fraction": 0.5360824742268041
+    },
+    "fragment_only": {
+      "kept_proposal_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        40,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96
+      ],
+      "raw_count": 97,
+      "kept_count": 94,
+      "removed_count": 3,
+      "retention_fraction": 0.9690721649484536,
+      "removal_fraction": 0.030927835051546393
+    },
+    "dual_head": {
+      "kept_proposal_ids": [
+        9,
+        13,
+        20,
+        21,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        38,
+        40,
+        42,
+        44,
+        46,
+        47,
+        50,
+        52,
+        57,
+        59,
+        61,
+        63,
+        64,
+        66,
+        68,
+        70,
+        73,
+        76,
+        77,
+        80,
+        82,
+        84,
+        85,
+        88,
+        89,
+        90,
+        91,
+        92,
+        94,
+        95
+      ],
+      "raw_count": 97,
+      "kept_count": 42,
+      "removed_count": 55,
+      "retention_fraction": 0.4329896907216495,
+      "removal_fraction": 0.5670103092783505
+    }
+  },
+  "provenance": {
+    "coordinates_source": "_paper_tmp/owod_dualhead_paper_companion/imports/source_results/t1_necessity_samepool_audit_validation_20260507/proposal_audit_rows_samepool_flags.jsonl.gz",
+    "decisions_source": "../../source_data/original_cases/case_decision_counts.json",
+    "source_case_id": "case3",
+    "coordinate_transform": "none",
+    "coordinate_format": "xyxy_source_image_pixels",
+    "proposal_id_base": 0,
+    "background_config": "tau_cov_0.55",
+    "fragment_only_input_pool": "raw",
+    "dual_head_output": "recorded_selected055_cascade_export",
+    "fragment_input_pool_in_dual_head": "background_filtered",
+    "continuous_scores_available": false,
+    "final_overlay_mode": "keep_drop_all"
+  }
+}

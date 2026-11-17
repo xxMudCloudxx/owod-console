@@ -1,10 +1,10 @@
-import { History, ImageIcon, UserRound } from 'lucide-react'
+import { ImageIcon, ScanEye, UserRound } from 'lucide-react'
 import { useConsoleStore } from '../store/useConsoleStore.js'
 
 const menuItems = [
   { label: '个人中心', icon: UserRound },
   { label: '图像清理', icon: ImageIcon },
-  { label: '最近样例', icon: History },
+  { label: '检测对比', icon: ScanEye },
 ]
 
 function Sidebar() {
@@ -12,7 +12,7 @@ function Sidebar() {
   const setActiveNav = useConsoleStore((state) => state.setActiveNav)
 
   return (
-    <aside className="border-b border-gray-200 bg-white lg:min-h-full lg:w-60 lg:border-r lg:border-b-0 xl:w-64">
+    <aside className="border-b border-gray-200 bg-white lg:min-h-full lg:w-52 lg:flex-none lg:border-r lg:border-b-0 xl:w-56">
       <div className="flex gap-1 overflow-x-auto px-3 py-3 lg:flex-col lg:px-4 lg:py-5">
         {menuItems.map(({ label, icon: Icon }) => {
           const isActive = label === activeNav

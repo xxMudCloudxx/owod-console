@@ -1,0 +1,54 @@
+[
+  {
+    "method": "Baseline raw SAM proposals",
+    "source_path": "/home/cumt/yyx/sam2/sgrod_runs/t1_threshold_sweep_best_candidate_20260512/best_row_eval_summary.json",
+    "protocol_note": "same local effbatch20 official-lr to41 reference row from best_row_eval_summary",
+    "checkpoint": "/home/cumt/yyx/sam2/sgrod_runs/fullt1_baseline_effbatch20_officiallr_to41_20260408/baseline_effbatch20_officiallr_to41/checkpoint0040.pth",
+    "mAP50": 14.578993,
+    "Known_AP50": 58.927,
+    "Known_Recall50": 70.21124523902016,
+    "Unknown_AP50": 2.3581,
+    "Unknown_Recall50": 34.305317324185246,
+    "WI_0.8": 0.06184524239578065,
+    "AOSA": 4333
+  },
+  {
+    "method": "Simple-rule geometry filtering",
+    "source_path": "/home/cumt/yyx/sam2/sgrod_runs/fullt1_ruleonly_geometry_effbatch20_officiallr_to41_20260514/final_eval_summary.json",
+    "protocol_note": "same local effbatch20 official-lr to41 protocol as selected dual; new T1 run",
+    "checkpoint": "/home/cumt/yyx/sam2/sgrod_runs/fullt1_ruleonly_geometry_effbatch20_officiallr_to41_20260514/ruleonly_geometry_effbatch20_officiallr_to41/checkpoint0040.pth",
+    "mAP50": 14.439981,
+    "Known_AP50": 58.4255,
+    "Known_Recall50": 69.51246349871224,
+    "Unknown_AP50": 1.1274,
+    "Unknown_Recall50": 34.34391080617496,
+    "WI_0.8": 0.05620035436284366,
+    "AOSA": 3327.0
+  },
+  {
+    "method": "NMS overlap thinning, per-image count matched to dual 0.55",
+    "source_path": "/home/cumt/yyx/sam2/sgrod_runs/fullt1_nms_iou070_dual055matched_effbatch20_officiallr_to41_20260514/final_eval_summary.json",
+    "protocol_note": "same local effbatch20 official-lr to41 protocol; per-image retained valid-box count exactly matched to selected dual tau_cov=0.55",
+    "checkpoint": "/home/cumt/yyx/sam2/sgrod_runs/fullt1_nms_iou070_dual055matched_effbatch20_officiallr_to41_20260514/nms_iou070_dual055matched_effbatch20_officiallr_to41/checkpoint0040.pth",
+    "mAP50": 14.556621,
+    "Known_AP50": 58.8639,
+    "Known_Recall50": 69.78576080911986,
+    "Unknown_AP50": 1.8075,
+    "Unknown_Recall50": 33.679245283018865,
+    "WI_0.8": 0.056666796890260586,
+    "AOSA": 3425.0
+  },
+  {
+    "method": "Dual-head selected tau_cov=0.55",
+    "source_path": "/home/cumt/yyx/sam2/sgrod_runs/t1_threshold_sweep_best_candidate_20260512/best_row_eval_summary.json",
+    "protocol_note": "same local effbatch20 official-lr to41 headline selected row",
+    "checkpoint": "/home/cumt/yyx/sam2/sgrod_runs/fullt1_sensitivity_bgcov055_rawbase_rawmicro_effbatch20_officiallr_to41_20260510/sensitivity_bgcov055_rawbase_rawmicro_effbatch20_officiallr_to41/checkpoint0040.pth",
+    "mAP50": 14.558277,
+    "Known_AP50": 58.4727,
+    "Known_Recall50": 69.07917759361882,
+    "Unknown_AP50": 9.7669,
+    "Unknown_Recall50": 34.06946826758148,
+    "WI_0.8": 0.05668761759878297,
+    "AOSA": 3340
+  }
+]

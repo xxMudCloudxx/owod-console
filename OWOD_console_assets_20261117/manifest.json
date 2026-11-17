@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "frontend_repository": "https://github.com/xxMudCloudxx/owod-console",
+  "data_mode": "recorded_experiment_results",
+  "created_date": "2026-11-17",
+  "cleaning_cases": [
+    {
+      "image_id": "002340",
+      "task": "T1",
+      "data": "cleaning/002340/data.json",
+      "original": "cleaning/002340/original.jpg",
+      "raw_count": 158,
+      "final_keep_count": 8
+    },
+    {
+      "image_id": "2008_007254",
+      "task": "T1",
+      "data": "cleaning/2008_007254/data.json",
+      "original": "cleaning/2008_007254/original.jpg",
+      "raw_count": 104,
+      "final_keep_count": 19
+    },
+    {
+      "image_id": "2009_005240",
+      "task": "T1",
+      "data": "cleaning/2009_005240/data.json",
+      "original": "cleaning/2009_005240/original.jpg",
+      "raw_count": 97,
+      "final_keep_count": 42
+    },
+    {
+      "image_id": "2011_001105",
+      "task": "T1",
+      "data": "cleaning/2011_001105/data.json",
+      "original": "cleaning/2011_001105/original.jpg",
+      "raw_count": 132,
+      "final_keep_count": 12
+    },
+    {
+      "image_id": "2009_001285",
+      "task": "T1",
+      "data": "cleaning/2009_001285/data.json",
+      "original": "cleaning/2009_001285/original.jpg",
+      "raw_count": 132,
+      "final_keep_count": 3
+    },
+    {
+      "image_id": "2010_005782",
+      "task": "T1",
+      "data": "cleaning/2010_005782/data.json",
+      "original": "cleaning/2010_005782/original.jpg",
+      "raw_count": 222,
+      "final_keep_count": 13
+    }
+  ],
+  "detector_cases": [
+    {
+      "image_id": "001435",
+      "task": "T1",
+      "summary": "detector_comparison/T1_001435/summary.json",
+      "original": "detector_comparison/T1_001435/original_image.png",
+      "baseline": "detector_comparison/T1_001435/baseline_detection.png",
+      "ours": "detector_comparison/T1_001435/ours_detection.png",
+      "gt_overlay": "detector_comparison/T1_001435/gt_overlay.png",
+      "configuration_identity": "source_summary_payload_paths",
+      "linked_cleaning_case": null,
+      "linked_aggregate_metric_row": null
+    },
+    {
+      "image_id": "005771",
+      "task": "T1",
+      "summary": "detector_comparison/T1_005771/summary.json",
+      "original": "detector_comparison/T1_005771/original_image.png",
+      "baseline": "detector_comparison/T1_005771/baseline_detection.png",
+      "ours": "detector_comparison/T1_005771/ours_detection.png",
+      "gt_overlay": "detector_comparison/T1_005771/gt_overlay.png",
+      "configuration_identity": "source_summary_payload_paths",
+      "linked_cleaning_case": null,
+      "linked_aggregate_metric_row": null
+    },
+    {
+      "image_id": "000000245915",
+      "task": "T2",
+      "summary": "detector_comparison/T2_000000245915/summary.json",
+      "original": "detector_comparison/T2_000000245915/original_image.png",
+      "baseline": "detector_comparison/T2_000000245915/baseline_detection.png",
+      "ours": "detector_comparison/T2_000000245915/ours_detection.png",
+      "gt_overlay": "detector_comparison/T2_000000245915/gt_overlay.png",
+      "configuration_identity": "source_summary_payload_paths",
+      "linked_cleaning_case": null,
+      "linked_aggregate_metric_row": null
+    },
+    {
+      "image_id": "000000361103",
+      "task": "T2",
+      "summary": "detector_comparison/T2_000000361103/summary.json",
+      "original": "detector_comparison/T2_000000361103/original_image.png",
+      "baseline": "detector_comparison/T2_000000361103/baseline_detection.png",
+      "ours": "detector_comparison/T2_000000361103/ours_detection.png",
+      "gt_overlay": "detector_comparison/T2_000000361103/gt_overlay.png",
+      "configuration_identity": "source_summary_payload_paths",
+      "linked_cleaning_case": null,
+      "linked_aggregate_metric_row": null
+    },
+    {
+      "image_id": "000000127517",
+      "task": "T3",
+      "summary": "detector_comparison/T3_000000127517/summary.json",
+      "original": "detector_comparison/T3_000000127517/original_image.png",
+      "baseline": "detector_comparison/T3_000000127517/baseline_detection.png",
+      "ours": "detector_comparison/T3_000000127517/ours_detection.png",
+      "gt_overlay": "detector_comparison/T3_000000127517/gt_overlay.png",
+      "configuration_identity": "source_summary_payload_paths",
+      "linked_cleaning_case": null,
+      "linked_aggregate_metric_row": null
+    },
+    {
+      "image_id": "006051",
+      "task": "T3",
+      "summary": "detector_comparison/T3_006051/summary.json",
+      "original": "detector_comparison/T3_006051/original_image.png",
+      "baseline": "detector_comparison/T3_006051/baseline_detection.png",
+      "ours": "detector_comparison/T3_006051/ours_detection.png",
+      "gt_overlay": "detector_comparison/T3_006051/gt_overlay.png",
+      "configuration_identity": "source_summary_payload_paths",
+      "linked_cleaning_case": null,
+      "linked_aggregate_metric_row": null
+    }
+  ],
+  "metrics": {
+    "detector_metrics_main_json": "metrics/detector_metrics_main.json",
+    "detector_metrics_main_csv": "metrics/detector_metrics_main.csv",
+    "set_relation_summary_json": "metrics/set_relation_summary.json",
+    "proposal_counts": "metrics/proposal_counts.json"
+  },
+  "availability": {
+    "raw_proposal_coordinates": true,
+    "recorded_keep_decisions": true,
+    "continuous_background_scores": false,
+    "continuous_fragment_scores": false,
+    "arbitrary_threshold_results": false,
+    "new_image_inference_weights": false
+  }
+}
